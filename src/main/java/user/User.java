@@ -21,8 +21,4 @@ public class User {
     public void setUserName(String newName) {
         userName = newName;
     }
-
-    public String getUserName() {
-        return "";
-    }
 }

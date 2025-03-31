@@ -33,7 +33,7 @@ public class Usertest {
         User user = new User("Adam", "password123");
         String expected = "Henry";
         user.setUserName("Henry");
-        String actual = user.getUserName();
+        String actual = user.getName();
         assertEquals(expected, actual);
     }
 }
