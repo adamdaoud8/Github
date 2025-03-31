@@ -18,6 +18,7 @@ public class Usertest {
         String expected = "Adam";
         String actual = user.getName();
         assertEquals(expected, actual);
+        System.out.println("Adam");
     }
 
     @Test
